@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WE DO | Modern Agricultural & Livestock Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================
+       NAVIGATION BAR
+       ========================================= -->
+  <nav class="navbar">
+    <a href="#" class="logo">
+      <div class="logo-icon">🌱</div>
+      <span>WE DO</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#guides">Crops & Livestock</a></li>
+      <li><a href="#learn-more">Learn More</a></li>
+      <li><a href="#help-modal">Farmer Support</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="#learn-more" class="btn btn-outline">Learn More</a>
+      <a href="#help-modal" class="btn btn-help">🎧 Help</a>
+      <a href="#login-modal" class="btn btn-outline">Log In</a>
+      <a href="#signin-modal" class="btn btn-primary">Sign In</a>
+    </div>
+  </nav>
+
+  <!-- =========================================
+       HERO SECTION (WITH BACKGROUND PICTURE)
+       ========================================= -->
+  <header class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">Smart Farming & Commercial Livestock Hub</span>
+      <h1>Growing Better Harvests & Stronger Herds — <span>Together WE DO</span></h1>
+      <p>
+        Your complete step-by-step agricultural manual. Learn how to plant, boost farm output, and protect crops and large-scale livestock from costly diseases.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#guides" class="btn btn-accent">Explore Crop & Animal Guides</a>
+        <a href="#learn-more" class="btn btn-outline hero-btn-custom">Learn More</a>
+        <a href="#help-modal" class="btn btn-primary">Talk to an Agronomist</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <h3>8+ Crops</h3>
+          <p>Maize, Coffee, Tea, Veg & Fruits</p>
+        </div>
+        <div class="stat-item">
+          <h3>5+ Livestock</h3>
+          <p>Commercial Poultry, Dairy & Pigs</p>
+        </div>
+        <div class="stat-item">
+          <h3>24/7 Help</h3>
+          <p>Live Chat, WhatsApp & Phone</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================
+       MAIN GUIDES SECTION (CROPS & ANIMALS TABS)
+       ========================================= -->
+  <section id="guides" class="section">
+    <div class="section-header">
+      <span class="section-tag">Practical Field Manuals</span>
+      <h2>Select Your Farming Enterprise</h2>
+      <p>Switch between Crop Production and Commercial Livestock Husbandry for planting, feeding, output maximization, and disease control.</p>
+    </div>
+
+    <!-- Pure CSS Radio Tab Controls -->
+    <input type="radio" name="farm-tabs" id="tab-crops" class="tab-radio" checked>
+    <input type="radio" name="farm-tabs" id="tab-animals" class="tab-radio">
+
+    <div class="tab-bar">
+      <label for="tab-crops" class="tab-label">🌾 Crop Farming Guide (8 Crops)</label>
+      <label for="tab-animals" class="tab-label">🐄 Commercial Livestock & Poultry</label>
+    </div>
+
+    <!-- =========================================
+         PANEL 1: CROPS
+         ========================================= -->
+    <div id="panel-crops" class="tab-panel">
+      <div class="grid">
+
+        <!-- 1. MAIZE -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=800&q=80" alt="Maize Farming">
+          <div class="card-body">
+            <span class="card-badge">Cereal Staple</span>
+            <h3>Maize (Corn)</h3>
+            <ul class="guide-list">
+              <li><strong>How to Grow:</strong> Plant certified hybrid seeds at onset of rains; spacing 75cm × 30cm, 2–3cm deep.</li>
+              <li><strong>Improve Output:</strong> Apply DAP at planting and top-dress with CAN at knee-height. Keep weed-free in first 4 weeks.</li>
+              <li class="disease"><strong>Fight Diseases & Pests:</strong> Control Fall Armyworm early with targeted pesticides; prevent Maize Lethal Necrosis (MLN) via crop rotation.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Yield Target: 25–35 Bags/Acre</span>
+              <a href="#help-modal">Ask Expert →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. BEANS -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80" alt="Beans Farming">
+          <div class="card-body">
+            <span class="card-badge">Legume & Nitrogen Fixer</span>
+            <h3>Beans</h3>
+            <ul class="guide-list">
+              <li><strong>How to Grow:</strong> Sow in well-drained loamy soil at 45cm × 15cm spacing. Avoid waterlogged fields.</li>
+              <li><strong>Improve Output:</strong> Inoculate seeds with Rhizobium and apply phosphatic fertilizer (TSP/DAP) for heavy podding.</li>
+              <li class="disease"><strong>Fight Diseases & Pests:</strong> Use certified disease-free seeds to prevent Anthracnose & Bean Rust; spray neem or copper fungicides early.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Harvest: 75–90 Days</span>
+              <a href="#help-modal">Ask Expert →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. SUKUMA WIKI -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1524179091875-bf99a9a6af57?auto=format&fit=crop&w=800&q=80" alt="Sukuma Wiki Kale">
+          <div class="card-body">
+            <span class="card-badge">Leafy Vegetable</span>
+            <h3>Sukuma Wiki (Collard Greens)</h3>
+            <ul class="guide-list">
+              <li><strong>How to Grow:</strong> Raise seedlings in a nursery for 3–4 weeks, then transplant at 60cm × 45cm with well-rotted manure.</li>
+              <li><strong>Improve Output:</strong> Top-dress with CAN or foliar nitrogen every 3 weeks; harvest lower leaves weekly to stimulate new growth.</li>
+              <li class="disease"><strong>Fight Diseases & Pests:</strong> Rotate with non-brassicas to stop Black Rot & Clubroot; control Aphids & Diamondback Moth promptly.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Continuous Weekly Harvest</span>
+              <a href="#help-modal">Ask Expert →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. SPINACH -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80" alt="Spinach Farming">
+          <div class="card-body">
+            <span class="card-badge">High-Value Greens</span>
+            <h3>Spinach</h3>
+            <ul class="guide-list">
+              <li><strong>How to Grow:</strong> Transplant healthy seedlings at 30cm × 30cm in rich, moisture-retentive soil (pH 6.0–6.8).</li>
+              <li><strong>Improve Output:</strong> Use drip irrigation and organic compost mulch to produce broad, tender, dark-green leaves.</li>
+              <li class="disease"><strong>Fight Diseases & Pests:</strong> Avoid overhead watering at night to prevent Downy Mildew & Leaf Spot; scout for leaf miners.</li>
+            </ul>
+            <div class="card-footer">
+              <span>First Pick: 35–45 Days</span>
+              <a href="#help-modal">Ask Expert →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. BANANA -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80" alt="Banana Plantation">
+          <div class="card-body">
+            <span class="card-badge">Perennial Fruit Crop</span>
+            <h3>Banana</h3>
+            <ul class="guide-list">
+              <li><strong>How to Grow:</strong> Dig 2ft × 2ft × 2ft holes spaced 3m × 3m; mix topsoil with 20kg manure and plant tissue-culture suckers.</li>
+              <li><strong>Improve Output:</strong> Maintain 3 stems per stool (mother, daughter, granddaughter), mulch heavily, and apply potassium-rich fertilizer.</li>
+              <li class="disease"><strong>Fight Diseases & Pests:</strong> Use clean tissue-culture plantlets to stop Panama Disease & Banana Weevils; prune dry leaves.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Bunch Weight: 30–50 kg</span>
+              <a href="#help-modal">Ask Expert →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. COFFEE -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?auto=format&fit=crop&w=800&q=80" alt="Coffee Farming">
+          <div class="card-body">
+            <span class="card-badge">Export Cash Crop</span>
+            <h3>Coffee</h3>
+            <ul class="guide-list">
+              <li><strong>How to Grow:</strong> Plant disease-resistant varieties (Ruiru 11 / Batian) in deep volcanic soils at 2m × 2m spacing with shade trees.</li>
+              <li><strong>Improve Output:</strong> Practice annual pruning to open the canopy, apply NPK 17:17:17, and add magnesium/boron foliar feeds.</li>
+              <li class="disease"><strong>Fight Diseases & Pests:</strong> Spray copper-based fungicides before rains to prevent Coffee Berry Disease (CBD) & Coffee Leaf Rust.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Peak Cherry Quality</span>
+              <a href="#help-modal">Ask Expert →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. TEA -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1582793988951-9aed5509eb97?auto=format&fit=crop&w=800&q=80" alt="Tea Plantation">
+          <div class="card-body">
+            <span class="card-badge">Highland Cash Crop</span>
+            <h3>Tea</h3>
+            <ul class="guide-list">
+              <li><strong>How to Grow:</strong> Plant high-yielding clones in acidic soils (pH 4.5–5.5) at 1.2m × 0.75m spacing in cool, high-rainfall areas.</li>
+              <li><strong>Improve Output:</strong> Pluck strictly "two leaves and a bud" every 7–10 days; apply NPK 26:5:5 fertilizer and prune every 3–4 years.</li>
+              <li class="disease"><strong>Fight Diseases & Pests:</strong> Maintain good drainage to prevent Armillaria Root Rot; control Red Spider Mites during dry spells.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Pluck Cycle: 7–10 Days</span>
+              <a href="#help-modal">Ask Expert →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8. TOMATO -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&w=800&q=80" alt="Tomato Farming">
+          <div class="card-body">
+            <span class="card-badge">High-Return Horticulture</span>
+            <h3>Tomato</h3>
+            <ul class="guide-list">
+              <li><strong>How to Grow:</strong> Transplant sturdy seedlings at 60cm × 45cm; stake/trellis plants early to keep fruits off the soil.</li>
+              <li><strong>Improve Output:</strong> Prune side suckers, irrigate consistently, and apply calcium-boron foliar sprays to prevent Blossom End Rot.</li>
+              <li class="disease"><strong>Fight Diseases & Pests:</strong> Alternate Mancozeb/Metalaxyl against Early & Late Blight; use pheromone traps for Tuta Absoluta.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Harvest: 70–85 Days</span>
+              <a href="#help-modal">Ask Expert →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- =========================================
+         PANEL 2: COMMERCIAL LIVESTOCK
+         ========================================= -->
+    <div id="panel-animals" class="tab-panel">
+      <div class="grid">
+
+        <!-- 1. HENS -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=800&q=80" alt="Commercial Poultry Farming">
+          <div class="card-body">
+            <span class="card-badge">Large-Scale Poultry</span>
+            <h3>Hens (Layers & Broilers)</h3>
+            <ul class="guide-list">
+              <li><strong>Housing & Setup:</strong> Well-ventilated deep-litter or battery cage house with dry wood shavings, footbaths, and 2 sq.ft per bird.</li>
+              <li><strong>Improve Output:</strong> Feed stage-specific rations (Chick Mash → Growers → Layers/Finisher), clean water 24/7, and 16 hrs light for layers.</li>
+              <li class="disease"><strong>Disease Control:</strong> Follow strict vaccination schedule (Newcastle, Gumboro, Fowl Typhoid & Fowl Pox) and strict biosecurity.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Layers: 85–92% Egg Rate</span>
+              <a href="#help-modal">Vet Support →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. COWS -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1546445317-29f4545e9d53?auto=format&fit=crop&w=800&q=80" alt="Commercial Dairy Cows">
+          <div class="card-body">
+            <span class="card-badge">Commercial Dairy & Beef</span>
+            <h3>Cows (Zero-Grazing & Herd)</h3>
+            <ul class="guide-list">
+              <li><strong>Housing & Setup:</strong> Spacious cubicles with rubber mats, proper slope drainage, clean feed troughs, and constant water access.</li>
+              <li><strong>Improve Output:</strong> Total Mixed Ration (Napier/Boma Rhodes silage + Dairy Meal based on milk yield + high-phosphorus mineral licks).</li>
+              <li class="disease"><strong>Disease Control:</strong> Weekly acaricide spraying against East Coast Fever (ticks), teat dipping for Mastitis, and FMD vaccinations.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Target: 20–35 Liters/Day</span>
+              <a href="#help-modal1">Vet Support →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. PIGS -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=800&q=80" alt="Commercial Pig Farming">
+          <div class="card-body">
+            <span class="card-badge">High-Turnover Piggery</span>
+            <h3>Pigs (Farrow-to-Finish)</h3>
+            <ul class="guide-list">
+              <li><strong>Housing & Setup:</strong> Concrete-floored pens with farrowing rails for piglets, shaded sleeping area, and automatic nipple drinkers.</li>
+              <li><strong>Improve Output:</strong> Feed balanced Creep, Weaner, Grower, and Finisher meals; reach 90kg live weight in 5.5–6 months.</li>
+              <li class="disease"><strong>Disease Control:</strong> Strict quarantine & disinfectant footbaths against African Swine Fever (ASF); deworm every 3 months & give iron to piglets.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Market Weight: 5.5 Months</span>
+              <a href="#help-modal">Vet Support →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. GOATS & SHEEP -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=800&q=80" alt="Commercial Goat Farming">
+          <div class="card-body">
+            <span class="card-badge">Small Ruminants Herd</span>
+            <h3>Goats & Sheep (Large Flocks)</h3>
+            <ul class="guide-list">
+              <li><strong>Housing & Setup:</strong> Raised slatted wooden floors (4ft off ground) to keep hooves dry and prevent parasite buildup.</li>
+              <li><strong>Improve Output:</strong> Supplement pasture/hay with Calliandra/Lucerne fodder, concentrates, and mineral blocks for fast twinning & weight gain.</li>
+              <li class="disease"><strong>Disease Control:</strong> Vaccinate against CCPP & PPR; trim hooves regularly to prevent Foot Rot and deworm rotationally.</li>
+            </ul>
+            <div class="card-footer">
+              <span>High Twinning & Dairy Yield</span>
+              <a href="#help-modal">Vet Support →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. AQUACULTURE -->
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" alt="Commercial Fish Farming">
+          <div class="card-body">
+            <span class="card-badge">Commercial Aquaculture</span>
+            <h3>Fish Farming (Tilapia & Catfish)</h3>
+            <ul class="guide-list">
+              <li><strong>Pond Setup:</strong> Liner ponds or cages stocked with monosex (all-male) fingerlings at 3–5 fish per square meter.</li>
+              <li><strong>Improve Output:</strong> Feed high-protein floating pellets (30–35% CP) twice daily at fixed feeding corners and aerate water.</li>
+              <li class="disease"><strong>Disease Control:</strong> Monitor dissolved oxygen, pH, and ammonia; prevent overcrowding and fungal infections via clean water exchange.</li>
+            </ul>
+            <div class="card-footer">
+              <span>Harvest: 6–8 Months (500g+)</span>
+              <a href="#help-modal">Vet Support →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       LEARN MORE SECTION
+       ========================================= -->
+  <section id="learn-more" class="section learn-section">
+    <div class="section-header">
+      <span class="section-tag">About WE DO</span>
+      <h2>Why Farmers Trust WE DO</h2>
+      <p>We bridge the gap between modern agricultural science and everyday practical farming—helping smallholders and commercial farms scale profitably.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-box">
+        <div class="feature-icon">🌱</div>
+        <h3>Step-by-Step Crop Blueprints</h3>
+        <p>From soil preparation and spacing to top-dressing schedules tailored for Maize, Beans, Coffee, Tea, Bananas, and Horticulture.</p>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">🛡️</div>
+        <h3>Early Disease & Pest Defense</h3>
+        <p>Identify blight, armyworms, rust, and livestock outbreaks early with proven prevention routines and safe treatment protocols.</p>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">🐄</div>
+        <h3>Commercial Herd Management</h3>
+        <p>Designed for farmers scaling Hens, Cows, Pigs, Goats, and Fish in large numbers with feed conversion and vaccination guides.</p>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">📞</div>
+        <h3>Direct Agronomist & Vet Access</h3>
+        <p>Stuck in the field? Reach our agricultural officers immediately via Online Chat, WhatsApp photo diagnosis, or direct phone call.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       MODAL 1: HELP DESK
+       ========================================= -->
+  <div id="help-modal1" class="modal-overlay">
+    <div class="modal-box">
+      <a href="#" class="modal-close" title="Close">&times;</a>
+      <h2>WE DO Farmer Help Desk</h2>
+      <p class="sub">Get instant support from our Agronomists & Veterinary Officers.</p>
+
+      <div class="help-channels">
+        <a href="https://wa.me/254700123456?text=Hello%20WE%20DO%20Agriculture%20Support,%20I%20need%20help%20with%20my%20farm" target="_blank" class="help-card whatsapp">
+          <div class="help-icon">💬</div>
+          <div>
+            <strong>WhatsApp Support (Fastest)</strong>
+            <p style="font-size: 0.85rem; color: #166534;">Send photos of sick crops or animals: +254 776543211</p>
+          </div>
+        </a>
+
+        <a href="tel:+25477654321" class="help-card phone">
+          <div class="help-icon">📞</div>
+          <div>
+            <strong>Call Farmer Helpline</strong>
+            <p style="font-size: 0.85rem; color: #475569;">Speak directly to an expert: +254 700 123 456</p>
+          </div>
+        </a>
+      </div>
+
+      <form action="#">
+        <div class="form-group">
+          <label>Online Live Help Message</label>
+          <textarea rows="3" placeholder="Describe your crop disease, fertilizer question, or livestock issue..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send to Online Agronomist</button>
+      </form>
+    </div>
+  </div>
+  <div id="help-modal" class="modal-overlay">
+    <div class="modal-box">
+      <a href="#" class="modal-close" title="Close">&times;</a>
+      <h2>WE DO Farmer Help Desk</h2>
+      <p class="sub">Get instant support from our Agronomists & Veterinary Officers.</p>
+
+      <div class="help-channels">
+        <a href="https://wa.me/254700123456?text=Hello%20WE%20DO%20Agriculture%20Support,%20I%20need%20help%20with%20my%20farm" target="_blank" class="help-card whatsapp">
+          <div class="help-icon">💬</div>
+          <div>
+            <strong>WhatsApp Support (Fastest)</strong>
+            <p style="font-size: 0.85rem; color: #166534;">Send photos of sick crops or animals: +254 700 123 456</p>
+          </div>
+        </a>
+
+        <a href="tel:+254700123456" class="help-card phone">
+          <div class="help-icon">📞</div>
+          <div>
+            <strong>Call Farmer Helpline</strong>
+            <p style="font-size: 0.85rem; color: #475569;">Speak directly to an expert: +254 700 123 456</p>
+          </div>
+        </a>
+      </div>
+
+      <form action="#">
+        <div class="form-group">
+          <label>Online Live Help Message</label>
+          <textarea rows="3" placeholder="Describe your crop disease, fertilizer question, or livestock issue..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send to Online Agronomist</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- =========================================
+       MODAL 2: LOG IN
+       ========================================= -->
+  <div id="login-modal" class="modal-overlay">
+    <div class="modal-box">
+      <a href="#" class="modal-close" title="Close">&times;</a>
+      <h2>Welcome Back Farmer</h2>
+      <p class="sub">Log in to access your saved farm schedules and expert replies.</p>
+      <form action="#">
+        <div class="form-group">
+          <label>Phone Number or Email</label>
+          <input type="text" placeholder="e.g. 0712 345 678 or farmer@wedo.com" required>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Enter your password" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Log In</button>
+      </form>
+      <p style="text-align: center; margin-top: 15px; font-size: 0.88rem;">
+        New to WE DO? <a href="#signin-modal" style="color: var(--primary); font-weight: 700;">Create Farmer Account</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- =========================================
+       MODAL 3: SIGN IN / REGISTER
+       ========================================= -->
+  <div id="signin-modal" class="modal-overlay">
+    <div class="modal-box">
+      <a href="#" class="modal-close" title="Close">&times;</a>
+      <h2>Join WE DO Agriculture</h2>
+      <p class="sub">Sign in / Register for personalized crop & livestock alerts.</p>
+      <form action="#">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="e.g. John Kamau" required>
+        </div>
+        <div class="form-group">
+          <label>Phone Number (For SMS & WhatsApp Alerts)</label>
+          <input type="tel" placeholder="e.g. +254 712 345 678" required>
+        </div>
+        <div class="form-group">
+          <label>Primary Farming Focus</label>
+          <select>
+            <option>Crops (Maize, Beans, Vegetables, Coffee, Tea)</option>
+            <option>Commercial Livestock (Hens, Cows, Pigs, Goats)</option>
+            <option>Mixed Farming (Both Crops & Livestock)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Create Password</label>
+          <input type="password" placeholder="Create a strong password" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Complete Sign In</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- =========================================
+       FLOATING QUICK HELP BUTTON & FOOTER
+       ========================================= -->
+  <a href="#help-modal" class="floating-help">🎧 Need Farm Help?</a>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🌱 WE DO</h3>
+        <p style="font-size: 0.9rem;">Empowering farmers with practical agronomy, high-yield livestock management, and 24/7 expert support.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Crop Guides</h4>
+        <ul>
+          <li><a href="#guides">Maize & Beans</a></li>
+          <li><a href="#guides">Sukuma Wiki & Spinach</a></li>
+          <li><a href="#guides">Coffee, Tea & Bananas</a></li>
+          <li><a href="#guides">Tomatoes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Commercial Livestock</h4>
+        <ul>
+          <li><a href="#guides">Hens (Layers & Broilers)</a></li>
+          <li><a href="#guides">Dairy & Beef Cows</a></li>
+          <li><a href="#guides">Commercial Pig Farming</a></li>
+          <li><a href="#guides">Goats, Sheep & Fish</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Farmer Support</h4>
+        <ul>
+          <li><a href="#help-modal">Online Live Help</a></li>
+          <li><a href="https://wa.me/254700123456">WhatsApp: +254 141492803</a></li>
+          <li><a href="tel:+254141492803">Call Helpline: +254 141492803</a></li>
+          <li><a href="#learn-more">Learn More About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 WE DO Agricultural Platform. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
