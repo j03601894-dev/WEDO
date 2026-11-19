@@ -166,7 +166,7 @@ a {
       rgba(20, 83, 45, 0.78) 55%,
       rgba(15, 23, 42, 0.65) 100%
     ),
-    url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1920&q=80')
+    url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tea_plantation_in_Kericho%2C_Kenya.jpg/1600px-Tea_plantation_in_Kericho%2C_Kenya.jpg')
       center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -349,9 +349,10 @@ a {
 }
 
 .card-img {
-  height: 190px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
+  background-color: #e2e8f0;
 }
 
 .card-body {
